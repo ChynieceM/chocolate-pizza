@@ -2,7 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 body{
-    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -51,8 +54,7 @@ main h2 {
 }
 
 main p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-
+  width: 80%;
 }
 
 #ingredients {
@@ -74,5 +76,20 @@ main p {
 #ingredients img {
     width: 80%;
     height: auto;
+}
 
+#abtAuthor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imgBio {
+    display: flex;
+    flex-direction: row;
+
+}
+#imgBio img {
+    padding: 1%;
 }
