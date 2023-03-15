@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <container>
+        <div id="logo">
             <img src="img/logo.png">
-            <h1>Delicious</h1>
-            <p>The Best Food Blog On The Web</p>
-        </container>
-        <container>
+            <div id="logoText">
+                <h1>Delicious</h1>
+                <p>The Best Food Blog On The Web</p>
+            </div>
+        </div>
+        <div id="nav">
             <nav>
                 <img src="img/fb-icon.png">
                 <img src="img/twit-icon.png">
@@ -25,9 +28,11 @@
                 <img src="img/rss-icon.png">
                 <img src="img/mail-icon.png">
             </nav>
-        </container>
+        </div>
     </header>
-    <hr><img src="img/hr-img.png"> <!--style in css using this image-->
+
+    <hr>
+
     <main>
         <h2>Chocolate Pizza</h2>
         <p>Posted on 15 DEC 2013/Desserts</p>
@@ -35,36 +40,49 @@
         <img src="img/choco-pizza.png">
 
         <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve Halve all
-            of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat. Stirring frequently
-            , until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
+            of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat. Stirring frequently,
+            until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
         </p>
+
         <p>Ice cream: In a small pot over medium heat. combine milk and granulated sugar until sugar is completely
             dissolved and the milk just barely lukewarm. Whisk in the egg yolks. set mixture in the fridge and wait
             until the fig mixture is cooled</p>
+
         <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
             instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the
             nuts. continue to process for +/- 10 minutes. Pour semi-frozen mixture into a Pyrex dish or glass
             Tupperware. Freeze for at least two hours before serving</p>
-        <ul>
-            <li>11/2 cups milk</li>
-            <li>1/2 cup mascarpone</li>
-            <li>1/2 tsp pink salt</li>
-            <li>16b Black Mission Figs</li>
-            <li>1/2 cup brown sugar</li>
-            <li>2-4 tsp water</li>
-            <li>11/2 cups heavy cream</li>
-            <li>1/3 granulated sugar</li>
-            <li>2 Egg yolks</li>
-            <li>1 lemon, juiced</li>
-            <li>2 tbsp butter</li>
-            <li>1 cup honey roasted pecans, roughly chopped</li>
-        </ul>
+        <div id="ingredients">
+            <img src="img/list-bg.png">
+            <ul>
+                <li><input type="checkbox" />11/2 cups milk</li>
+                <li><input type="checkbox" />1/2 cup mascarpone</li>
+                <li><input type="checkbox" />1/2 tsp pink salt</li>
+                <li><input type="checkbox" />16b Black Mission Figs</li>
+                <li><input type="checkbox" />1/2 cup brown sugar</li>
+                <li><input type="checkbox" />2-4 tsp water</li>
+                <li><input type="checkbox" />11/2 cups heavy cream</li>
+                <li><input type="checkbox" />1/3 granulated sugar</li>
+                <li><input type="checkbox" />2 Egg yolks</li>
+                <li><input type="checkbox" />1 lemon, juiced</li>
+                <li><input type="checkbox" />2 tbsp butter</li>
+                <li><input type="checkbox" />1 cup honey roasted pecans, roughly chopped</li>
+            </ul>
+        </div>
+
     </main>
+
     <hr>
-    <img src="img/van-pic.png">
-    <h3>Vanessa Stevenson</h3>
-    <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that’s pretty much who I am.</p>
-    <button>Share Recipe</button>
+    <div id="abtAuthor">
+        <div id="imgBio">
+            <img src="img/van-pic.png">
+            <div id="bio">
+                <h3>Vanessa Stevenson</h3>
+                <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that’s pretty much who I am.</p>
+            </div>
+        </div>
+        <button>Share Recipe</button>
+    </div>
     <hr>
     <footer>
         <img src="img/small-logo.png">

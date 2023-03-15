@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo img{
+    padding: 5%;
+
+}
+
+#logoText {
+    display: flex;
+    flex-direction: column;
+}
+
+#logoText h1 {
+    margin-bottom: 0;
+    padding: 0;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#logoText p {
+    margin-top: 0;
+    padding: 0;
+}
+
+#fakeHr {
+    border: 10px solid transparent;
+    border-radius: 20px;
+    border-image: url(img/hr-img.png) round 10;
+
+}
+
+main h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main p {
+  width: 80%;
+}
+
+#ingredients {
+    position: relative;
+}
+
+#ingredients ul {
+    font-family: 'Neucha', cursive;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+}
+
+#ingredients ul li {
+    list-style: none;
+}
+
+#ingredients img {
+    width: 80%;
+    height: auto;
+}
+
+#abtAuthor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imgBio {
+    display: flex;
+    flex-direction: row;
+
+}
+#imgBio img {
+    padding: 1%;
+}
