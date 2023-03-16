@@ -4,7 +4,6 @@
 body{
     display: flex;
     flex-direction: column;
-    margin: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -13,6 +12,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
 }
 
 #logo {
@@ -42,19 +42,54 @@ header {
     padding: 0;
 }
 
-#fakeHr {
+Hr {
     border: 10px solid transparent;
     border-radius: 20px;
     border-image: url(img/hr-img.png) round 10;
 
 }
 
-main h2 {
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+#headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content:baseline;
+    width: 100vw;
+
+}
+
+#headlineText {
+    display: flex;
+    flex-direction: column;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-main p {
-  width: 80%;
+#headlineImg {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#blogPost {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#blogPost img {
+    height: auto;
+    width: 100vw;
+}
+
+#blogPost p {
+    display: flex;
 }
 
 #ingredients {
